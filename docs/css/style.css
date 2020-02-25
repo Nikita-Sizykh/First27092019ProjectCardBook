@@ -1,0 +1,87 @@
+* {
+	box-sizing: border-box;
+}
+html {
+	height: 100%;
+}
+body {
+	position: relative;
+	height: 100%;
+	background-color: #e3f2fd;
+}
+.card {
+	position: absolute;
+	width: 967px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	border-radius: 8px;
+	padding-right: 70px;
+}
+.card-img {
+	float: left;
+	margin-top: 60px;
+	margin-left: 70px;
+}
+.card-content-wrapper {
+	float: left;
+	width: 426px;
+	height: 100%;
+	margin-top: 72px;
+	margin-left: 30px;
+}
+.card-content-elements {
+	font-family: 'Noto Serif', serif;
+	font-weight: 700;
+	line-height: 1.11;
+}
+.card-content-title {
+	font-size: 18px;
+	color: #bfc5c8;
+}
+.card-content-bookname {
+	font-size: 38px;
+	color: #01a4bd;
+	padding-top: 12px;
+}
+.card-content-text p {
+	margin: 0;
+	padding: 0;
+}
+.card-content-text {
+	padding-top: 25px;
+	padding-bottom: 17px;
+	font-size: 15px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 400;
+	line-height: 1.2;
+	color: #6c757f;
+}
+.card-content-text .paragraph {
+	padding-top: 15px;
+}
+.card-content-price {
+	padding-top: 11px;
+	font-size: 28px;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	line-height: 0.9;
+	color: #000;
+}
+.card-button-basket {
+	float: left;
+	margin-top: 28px;
+	margin-bottom: 102px;
+	padding-top: 14px;
+	width: 174px;
+	height: 54px;
+	border-radius: 5px;
+	background-color: #e2013b;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	text-align: center;
+	line-height: 0.9;
+	color: #fff;
+}
